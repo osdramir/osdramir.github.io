@@ -1,4 +1,46 @@
+html {
+    background: #4F86C6;
+}
 body {
     font-family: Arial;
-    color: darkslategray;
+    color: #efefef;
+    background: #2A2B2E;
+    padding: 20px;
+    width: 500px;
+    border: medium solid black;
+    border-radius: 15px;
 }
+
+h1 {
+    color: black;
+    background: lightsteelblue;
+    background-position: 10px 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: medium solid black;
+    border-radius: 10px;
+}
+
+img{
+    border: medium solid black;
+    border-radius: 10px;
+}
+
+a:link {
+    color: lightsteelblue;    
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Color Palate
+--graphite: #2a2b2eff;
+--dusty-denim: #4f86c6ff;
+--muted-teal: #a4c2a8ff;
+--burnt-peach: #d7816aff;
+--powder-blush: #f3b3a6ff; */
